@@ -1,0 +1,35 @@
+{
+  "name": "acmish",
+  "displayName": "acmish",
+  "description": "Acme-ish color theme for vscode.",
+  "version": "1.0.0",
+  "publisher": "kgtaffur",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kgtaffur/acmish"
+  },
+  "keywords": [
+    "light",
+    "theme",
+    "light theme",
+    "acme",
+    "acme editor",
+    "acme text editor",
+    "kgtaffur"
+  ],
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "acmish",
+        "uiTheme": "vs",
+        "path": "./themes/acmish-color-theme.json"
+      }
+    ]
+  }
+}
